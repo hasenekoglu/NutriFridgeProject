@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Models\\Models.csproj": {}
+    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Models\\Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Models\\Models.csproj": {
+    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Models\\obj\\",
+        "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

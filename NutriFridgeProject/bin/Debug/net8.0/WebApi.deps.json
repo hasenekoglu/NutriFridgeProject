@@ -12,7 +12,6 @@
           "Microsoft.EntityFrameworkCore.Design": "8.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
           "Repositories": "1.0.0",
-          "Services": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -924,15 +923,6 @@
         "runtime": {
           "Repositories.dll": {}
         }
-      },
-      "Services/1.0.0": {
-        "dependencies": {
-          "Models": "1.0.0",
-          "Repositories": "1.0.0"
-        },
-        "runtime": {
-          "Services.dll": {}
-        }
       }
     }
   },
@@ -1522,11 +1512,6 @@
       "sha512": ""
     },
     "Repositories/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

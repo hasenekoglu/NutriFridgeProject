@@ -17,7 +17,8 @@ namespace Repositories.Concreate
 
         public FoodRepository(ApplicationDbContext context)
         {
-            _context = context;
+            
+            _context = new ApplicationDbContext();
         }
 
 

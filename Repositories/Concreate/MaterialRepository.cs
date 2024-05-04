@@ -22,7 +22,13 @@ namespace Repositories.Concreate
 
         public IEnumerable<Material> GetMaterials()
         {
-            return _context.Materials.ToList();
+            using (ApplicationDbContext context = new ApplicationDbContext())
+            {
+                return
+                    context.Set<Material>().ToList();
+
+            }
+            //return _context.Set<Material>().ToList();
         }
 
         public Material GetMaterialById(int id)

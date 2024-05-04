@@ -1624,20 +1624,6 @@
         "runtime": {
           "bin/placeholder/Repositories.dll": {}
         }
-      },
-      "Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Models": "1.0.0",
-          "Repositories": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Services.dll": {}
-        }
       }
     }
   },
@@ -4575,11 +4561,6 @@
       "type": "project",
       "path": "../Repositories/Repositories.csproj",
       "msbuildProject": "../Repositories/Repositories.csproj"
-    },
-    "Services/1.0.0": {
-      "type": "project",
-      "path": "../Services/Services.csproj",
-      "msbuildProject": "../Services/Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4588,7 +4569,6 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
       "Repositories >= 1.0.0",
-      "Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -4599,11 +4579,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj",
+      "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj",
       "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\NutriFridgeProject\\obj\\",
+      "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\NutriFridgeProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4625,11 +4605,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Repositories\\Repositories.csproj"
-            },
-            "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Services\\Services.csproj"
+            "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Repositories\\Repositories.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x5HVsN+ySVsTrlw/zM/Dcscuq/1zJ4otmh2giSq7++EB5t4+8/kT+1B1GsdtkGMXKt5uZ6BIE/IiZ82KLv6Ngw==",
+  "dgSpecHash": "BLBqIIW0B5fuJBI0ab1yI/fN+lbUfF/mwCNbMjrhAhYI8qgwagzZfZdvUuK0+/chZ7v5IBDzW7MktjKu0OzsmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject-main\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmet\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ahmet\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

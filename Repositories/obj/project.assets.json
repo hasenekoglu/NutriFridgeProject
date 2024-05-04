@@ -4181,11 +4181,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Repositories\\Repositories.csproj",
+      "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Repositories\\Repositories.csproj",
       "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Repositories\\obj\\",
+      "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4207,8 +4207,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridge\\NutriFridgeProject\\Models\\Models.csproj"
+            "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Models\\Models.csproj"
             }
           }
         }

@@ -44,6 +44,22 @@ namespace Repositories.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Foods");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            FoodValue = "Delicious and nutritious",
+                            Name = "Scrambled Eggs",
+                            Recipe = "Scramble eggs and add diced tomatoes"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            FoodValue = "Fresh and healthy",
+                            Name = "Tomato Salad",
+                            Recipe = "Slice tomatoes and add olive oil"
+                        });
                 });
 
             modelBuilder.Entity("Models.FoodMaterial", b =>
@@ -80,6 +96,20 @@ namespace Repositories.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Materials");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            FoodValue = "10g protein",
+                            Name = "Egg"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            FoodValue = "100g Vitamin C",
+                            Name = "Tomato"
+                        });
                 });
 
             modelBuilder.Entity("Models.FoodMaterial", b =>
