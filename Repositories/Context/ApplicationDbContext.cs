@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Models;
 using Microsoft.Extensions.Configuration;
+using Models.ChatsModel;
+using Models.GPTChatsModel;
+
 namespace Repositories.Context
 {
     public class ApplicationDbContext :DbContext
@@ -15,6 +18,8 @@ namespace Repositories.Context
         public DbSet<Material> Materials { get; set; }
         public DbSet<Food> Foods { get; set; }
         public DbSet<FoodMaterial> FoodsMaterials { get; set; }
+        public DbSet<MessageModel> Messages { get; set; }
+        public DbSet<Chat> Chats { get; set; }
 
 
        

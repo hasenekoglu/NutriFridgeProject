@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj": {}
+    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Models\\Models.csproj": {
+    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Models\\obj\\",
+        "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj": {
+    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj",
+        "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj",
         "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\NutriFridgeProject\\obj\\",
+        "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\NutriFridgeProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Repositories\\Repositories.csproj"
+              "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -119,6 +119,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Betalgo.OpenAI.Utilities": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.4, )"
@@ -161,14 +165,14 @@
         }
       }
     },
-    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Repositories\\Repositories.csproj",
+        "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Repositories\\obj\\",
+        "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -190,8 +194,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\Yeni klasör\\NutriFridgeProject\\Models\\Models.csproj"
+              "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\NutriFridgeProject\\Models\\Models.csproj"
               }
             }
           }
@@ -211,6 +215,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Betalgo.OpenAI.Utilities": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.4, )"
@@ -238,6 +246,18 @@
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

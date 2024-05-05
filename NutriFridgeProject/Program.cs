@@ -1,18 +1,24 @@
 
+using OpenAI.Extensions;
 using Repositories;
+
 
 
 namespace NutriFridgeProject
 {
-    public class Program
+    public class Program 
     {
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-           builder.Services.AddRepoistories(builder.Configuration);
+           builder.Services.AddRepositories(builder.Configuration);
+           builder.Services.AddOpenAIService();
           
+
+
+
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
@@ -36,5 +42,7 @@ namespace NutriFridgeProject
 
             app.Run();
         }
+
+       
     }
 }

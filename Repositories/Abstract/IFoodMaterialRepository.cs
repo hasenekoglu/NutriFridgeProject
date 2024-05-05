@@ -9,7 +9,7 @@ namespace Repositories.Abstract
 {
     public interface IFoodMaterialRepository
     {
-        IEnumerable<FoodMaterial> GetMaterials();
+        IEnumerable<FoodMaterial> GetAllFoodMaterials();
         public FoodMaterial GetFoodMaterialById(int foodId, int materialId);
         public void AddFoodMaterial(FoodMaterial foodMaterial);
         public void UpdateFoodMaterial(FoodMaterial foodMaterial);

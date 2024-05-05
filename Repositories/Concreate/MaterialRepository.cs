@@ -16,19 +16,14 @@ namespace Repositories.Concreate
 
         public MaterialRepository(ApplicationDbContext context)
         {
-            _context = context;
+            _context = new ApplicationDbContext();
         }
 
 
         public IEnumerable<Material> GetMaterials()
         {
-            using (ApplicationDbContext context = new ApplicationDbContext())
-            {
-                return
-                    context.Set<Material>().ToList();
-
-            }
-            //return _context.Set<Material>().ToList();
+           
+            return _context.Set<Material>().ToList();
         }
 
         public Material GetMaterialById(int id)

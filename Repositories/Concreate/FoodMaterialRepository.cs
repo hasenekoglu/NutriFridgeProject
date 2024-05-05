@@ -16,11 +16,11 @@ namespace Repositories.Concreate
 
         public FoodMaterialRepository(ApplicationDbContext context)
         {
-            _context = context;
+            _context = new ApplicationDbContext();
         }
 
 
-        public IEnumerable<FoodMaterial> GetMaterials()
+        public IEnumerable<FoodMaterial> GetAllFoodMaterials()
         {
             return _context.FoodsMaterials.ToList();
         }

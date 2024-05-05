@@ -562,3 +562,10 @@ C:\Users\ahmet\OneDrive\Masaüstü\Yeni klasör\NutriFridgeProject\NutriFridgePr
 C:\Users\ahmet\OneDrive\Masaüstü\Yeni klasör\NutriFridgeProject\NutriFridgeProject\obj\Debug\net8.0\WebApi.pdb
 C:\Users\ahmet\OneDrive\Masaüstü\Yeni klasör\NutriFridgeProject\NutriFridgeProject\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\ahmet\OneDrive\Masaüstü\Yeni klasör\NutriFridgeProject\NutriFridgeProject\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\ahmet\OneDrive\Masaüstü\NutriFridgeProject\NutriFridgeProject\bin\Debug\net8.0\Apache.Arrow.dll
+C:\Users\ahmet\OneDrive\Masaüstü\NutriFridgeProject\NutriFridgeProject\bin\Debug\net8.0\OpenAI.dll
+C:\Users\ahmet\OneDrive\Masaüstü\NutriFridgeProject\NutriFridgeProject\bin\Debug\net8.0\OpenAI.Utilities.dll
+C:\Users\ahmet\OneDrive\Masaüstü\NutriFridgeProject\NutriFridgeProject\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\ahmet\OneDrive\Masaüstü\NutriFridgeProject\NutriFridgeProject\bin\Debug\net8.0\MathNet.Numerics.dll
+C:\Users\ahmet\OneDrive\Masaüstü\NutriFridgeProject\NutriFridgeProject\bin\Debug\net8.0\Microsoft.Data.Analysis.dll
+C:\Users\ahmet\OneDrive\Masaüstü\NutriFridgeProject\NutriFridgeProject\bin\Debug\net8.0\Microsoft.ML.DataView.dll

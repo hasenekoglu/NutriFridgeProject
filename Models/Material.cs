@@ -11,6 +11,6 @@ namespace Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string FoodValue { get; set; }
-        public ICollection<FoodMaterial> FoodMaterials { get; set; }
+       // public ICollection<FoodMaterial> FoodMaterials { get; set; }
     }
 }

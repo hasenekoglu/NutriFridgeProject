@@ -1,12 +1,434 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\NutriFridgeProject\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96C4062F-531F-4F26-9CC2-E7B8B12155C5}|NutriFridgeProject\\WebApi.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\nutrifridgeproject\\controllers\\gptchatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C4062F-531F-4F26-9CC2-E7B8B12155C5}|NutriFridgeProject\\WebApi.csproj|solutionrelative:nutrifridgeproject\\controllers\\gptchatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\services\\concreate\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\services\\concreate\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C4062F-531F-4F26-9CC2-E7B8B12155C5}|NutriFridgeProject\\WebApi.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\nutrifridgeproject\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C4062F-531F-4F26-9CC2-E7B8B12155C5}|NutriFridgeProject\\WebApi.csproj|solutionrelative:nutrifridgeproject\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C4062F-531F-4F26-9CC2-E7B8B12155C5}|NutriFridgeProject\\WebApi.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\nutrifridgeproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96C4062F-531F-4F26-9CC2-E7B8B12155C5}|NutriFridgeProject\\WebApi.csproj|solutionrelative:nutrifridgeproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\services\\concreate\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\services\\concreate\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\concreate\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\concreate\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0420AF98-FF24-427B-8AFF-9B6BB5C9F53E}|Models\\Models.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\models\\chatsmodel\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0420AF98-FF24-427B-8AFF-9B6BB5C9F53E}|Models\\Models.csproj|solutionrelative:models\\chatsmodel\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0420AF98-FF24-427B-8AFF-9B6BB5C9F53E}|Models\\Models.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0420AF98-FF24-427B-8AFF-9B6BB5C9F53E}|Models\\Models.csproj|solutionrelative:models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\services\\abstract\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\services\\abstract\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\services\\abstract\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\services\\abstract\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\services\\abstract\\ifoodmaterialsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\services\\abstract\\ifoodmaterialsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\concreate\\chatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\concreate\\chatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\concreate\\materialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\concreate\\materialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\concreate\\foodmaterialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\concreate\\foodmaterialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\abstract\\imaterialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\abstract\\imaterialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\abstract\\ifoodmaterialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\abstract\\ifoodmaterialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0420AF98-FF24-427B-8AFF-9B6BB5C9F53E}|Models\\Models.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0420AF98-FF24-427B-8AFF-9B6BB5C9F53E}|Models\\Models.csproj|solutionrelative:models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C4062F-531F-4F26-9CC2-E7B8B12155C5}|NutriFridgeProject\\WebApi.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\nutrifridgeproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C4062F-531F-4F26-9CC2-E7B8B12155C5}|NutriFridgeProject\\WebApi.csproj|solutionrelative:nutrifridgeproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C4062F-531F-4F26-9CC2-E7B8B12155C5}|NutriFridgeProject\\WebApi.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\nutrifridgeproject\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{96C4062F-531F-4F26-9CC2-E7B8B12155C5}|NutriFridgeProject\\WebApi.csproj|solutionrelative:nutrifridgeproject\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C4062F-531F-4F26-9CC2-E7B8B12155C5}|NutriFridgeProject\\WebApi.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\nutrifridgeproject\\controllers\\materialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C4062F-531F-4F26-9CC2-E7B8B12155C5}|NutriFridgeProject\\WebApi.csproj|solutionrelative:nutrifridgeproject\\controllers\\materialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\concreate\\foodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\concreate\\foodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\masa\u00FCst\u00FC\\nutrifridgeproject\\repositories\\services\\concreate\\foodmaterialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11329062-1CFF-42F6-8377-6D71D7DCC318}|Repositories\\Repositories.csproj|solutionrelative:repositories\\services\\concreate\\foodmaterialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GPTChatsController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\NutriFridgeProject\\Controllers\\GPTChatsController.cs",
+              "RelativeDocumentMoniker": "NutriFridgeProject\\Controllers\\GPTChatsController.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\NutriFridgeProject\\Controllers\\GPTChatsController.cs",
+              "RelativeToolTip": "NutriFridgeProject\\Controllers\\GPTChatsController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAACwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T20:35:29.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Services\\Concreate\\ChatService.cs",
+              "RelativeDocumentMoniker": "Repositories\\Services\\Concreate\\ChatService.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Services\\Concreate\\ChatService.cs",
+              "RelativeToolTip": "Repositories\\Services\\Concreate\\ChatService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T17:25:27.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMessageService.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Services\\Abstract\\IMessageService.cs",
+              "RelativeDocumentMoniker": "Repositories\\Services\\Abstract\\IMessageService.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Services\\Abstract\\IMessageService.cs",
+              "RelativeToolTip": "Repositories\\Services\\Abstract\\IMessageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:33:06.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Concreate\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Concreate\\MessageRepository.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Concreate\\MessageRepository.cs",
+              "RelativeToolTip": "Repositories\\Concreate\\MessageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:12:53.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Models\\ChatsModel\\Chat.cs",
+              "RelativeDocumentMoniker": "Models\\ChatsModel\\Chat.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Models\\ChatsModel\\Chat.cs",
+              "RelativeToolTip": "Models\\ChatsModel\\Chat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:05:40.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IChatService.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Services\\Abstract\\IChatService.cs",
+              "RelativeDocumentMoniker": "Repositories\\Services\\Abstract\\IChatService.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Services\\Abstract\\IChatService.cs",
+              "RelativeToolTip": "Repositories\\Services\\Abstract\\IChatService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T17:25:04.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\NutriFridgeProject\\appsettings.json",
+              "RelativeDocumentMoniker": "NutriFridgeProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\NutriFridgeProject\\appsettings.json",
+              "RelativeToolTip": "NutriFridgeProject\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-05T17:17:15.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IFoodMaterialsService.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Services\\Abstract\\IFoodMaterialsService.cs",
+              "RelativeDocumentMoniker": "Repositories\\Services\\Abstract\\IFoodMaterialsService.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Services\\Abstract\\IFoodMaterialsService.cs",
+              "RelativeToolTip": "Repositories\\Services\\Abstract\\IFoodMaterialsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:26:00.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChatRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Concreate\\ChatRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Concreate\\ChatRepository.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Concreate\\ChatRepository.cs",
+              "RelativeToolTip": "Repositories\\Concreate\\ChatRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:12:31.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Material.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Models\\Material.cs",
+              "RelativeDocumentMoniker": "Models\\Material.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Models\\Material.cs",
+              "RelativeToolTip": "Models\\Material.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:07:09.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MaterialRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Concreate\\MaterialRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Concreate\\MaterialRepository.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Concreate\\MaterialRepository.cs",
+              "RelativeToolTip": "Repositories\\Concreate\\MaterialRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:17:00.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Repositories\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\ServiceRegistration.cs",
+              "RelativeToolTip": "Repositories\\ServiceRegistration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:44:10.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FoodMaterialRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Concreate\\FoodMaterialRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Concreate\\FoodMaterialRepository.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Concreate\\FoodMaterialRepository.cs",
+              "RelativeToolTip": "Repositories\\Concreate\\FoodMaterialRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:12:30.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IMaterialRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Abstract\\IMaterialRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Abstract\\IMaterialRepository.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Abstract\\IMaterialRepository.cs",
+              "RelativeToolTip": "Repositories\\Abstract\\IMaterialRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:13:12.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Repositories\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:18:16.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IFoodMaterialRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Abstract\\IFoodMaterialRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Abstract\\IFoodMaterialRepository.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Abstract\\IFoodMaterialRepository.cs",
+              "RelativeToolTip": "Repositories\\Abstract\\IFoodMaterialRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:16:01.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\NutriFridgeProject\\Program.cs",
+              "RelativeDocumentMoniker": "NutriFridgeProject\\Program.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\NutriFridgeProject\\Program.cs",
+              "RelativeToolTip": "NutriFridgeProject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:06:34.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Food.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Models\\Food.cs",
+              "RelativeDocumentMoniker": "Models\\Food.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Models\\Food.cs",
+              "RelativeToolTip": "Models\\Food.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:07:10.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WebApi",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj",
+              "RelativeDocumentMoniker": "NutriFridgeProject\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\NutriFridgeProject\\WebApi.csproj",
+              "RelativeToolTip": "NutriFridgeProject\\WebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-05T16:32:41.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MaterialController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\NutriFridgeProject\\Controllers\\MaterialController.cs",
+              "RelativeDocumentMoniker": "NutriFridgeProject\\Controllers\\MaterialController.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\NutriFridgeProject\\Controllers\\MaterialController.cs",
+              "RelativeToolTip": "NutriFridgeProject\\Controllers\\MaterialController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAmwCgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:02:34.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FoodRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Concreate\\FoodRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Concreate\\FoodRepository.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Concreate\\FoodRepository.cs",
+              "RelativeToolTip": "Repositories\\Concreate\\FoodRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:16:36.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FoodMaterialService.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Services\\Concreate\\FoodMaterialService.cs",
+              "RelativeDocumentMoniker": "Repositories\\Services\\Concreate\\FoodMaterialService.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Services\\Concreate\\FoodMaterialService.cs",
+              "RelativeToolTip": "Repositories\\Services\\Concreate\\FoodMaterialService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:18:53.907Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Services\\Concreate\\MessageService.cs",
+              "RelativeDocumentMoniker": "Repositories\\Services\\Concreate\\MessageService.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\Repositories\\Services\\Concreate\\MessageService.cs",
+              "RelativeToolTip": "Repositories\\Services\\Concreate\\MessageService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:34:25.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FoodController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\NutriFridgeProject\\Controllers\\FoodController.cs",
+              "RelativeDocumentMoniker": "NutriFridgeProject\\Controllers\\FoodController.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Masa\u00FCst\u00FC\\NutriFridgeProject\\NutriFridgeProject\\Controllers\\FoodController.cs",
+              "RelativeToolTip": "NutriFridgeProject\\Controllers\\FoodController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T20:41:05.142Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

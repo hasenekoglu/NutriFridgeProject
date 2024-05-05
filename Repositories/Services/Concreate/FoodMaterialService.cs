@@ -16,7 +16,7 @@ public class FoodMaterialService :IFoodMaterialsService
 
     public IEnumerable<FoodMaterial> GetAllFoodMaterials()
     {
-        return _foodMaterialRepository.GetMaterials();
+        return _foodMaterialRepository.GetAllFoodMaterials();
     }
 
     public FoodMaterial GetFoodMaterialById(int foodId, int materialId)
