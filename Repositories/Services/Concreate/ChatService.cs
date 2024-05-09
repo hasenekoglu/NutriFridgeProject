@@ -10,6 +10,7 @@ using OpenAI.Interfaces;
 using OpenAI.Managers;
 using OpenAI.ObjectModels.RequestModels;
 using OpenAI.ObjectModels.ResponseModels;
+using Repositories.Abstract;
 using Repositories.Concreate;
 using Repositories.Services.Abstract;
 
@@ -17,9 +18,9 @@ namespace Repositories.Services.Concreate
 {
     public class ChatService: IChatService
     {
-        protected readonly ChatRepository _chatRepository;
+        protected readonly IChatRepository _chatRepository;
 
-        public ChatService(ChatRepository chatRepository)
+        public ChatService(IChatRepository chatRepository)
         {
             _chatRepository = chatRepository;
         }

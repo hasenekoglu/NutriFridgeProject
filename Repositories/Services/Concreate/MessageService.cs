@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Models.GPTChatsModel;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Repositories.Abstract;
 using Repositories.Concreate;
 using Repositories.Services.Abstract;
 
@@ -14,10 +15,10 @@ namespace Repositories.Services.Concreate
 {
     public class MessageService : IMessageService
     {
-        protected readonly MessageRepository _messageRepository;
-        protected readonly ChatService _chatService;
+        protected readonly IMessageRepository _messageRepository;
+        protected readonly IChatService _chatService;
 
-        public MessageService(MessageRepository messageRepository)
+        public MessageService(IMessageRepository messageRepository)
         {
             _messageRepository = messageRepository;
         }

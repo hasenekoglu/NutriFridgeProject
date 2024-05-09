@@ -15,5 +15,6 @@ namespace Repositories.Abstract
         public void AddMessage(MessageModel messageModel);
         public void UpdateMessage(MessageModel messageModel);
         public void DeleteMessage(int id);
+        public IList<MessageModel> GetAllMessagesByChatId(int chatId);
     }
 }

@@ -569,3 +569,4 @@ C:\Users\ahmet\OneDrive\Masaüstü\NutriFridgeProject\NutriFridgeProject\bin\Deb
 C:\Users\ahmet\OneDrive\Masaüstü\NutriFridgeProject\NutriFridgeProject\bin\Debug\net8.0\MathNet.Numerics.dll
 C:\Users\ahmet\OneDrive\Masaüstü\NutriFridgeProject\NutriFridgeProject\bin\Debug\net8.0\Microsoft.Data.Analysis.dll
 C:\Users\ahmet\OneDrive\Masaüstü\NutriFridgeProject\NutriFridgeProject\bin\Debug\net8.0\Microsoft.ML.DataView.dll
+C:\Users\ahmet\OneDrive\Masaüstü\NutriFridgeProject\NutriFridgeProject\bin\Debug\net8.0\Newtonsoft.Json.dll

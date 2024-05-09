@@ -16,5 +16,6 @@ namespace Repositories.Services.Abstract
         void Update(MessageModel messageModel);
         void Delete(int messageId);
 
+
     }
 }
