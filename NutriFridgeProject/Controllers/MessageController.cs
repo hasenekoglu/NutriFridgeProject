@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Models.ChatsModel;
+using Models.Dto;
 using Models.GPTChatsModel;
 using Repositories.Concreate;
 using Repositories.Services.Abstract;
@@ -43,9 +44,9 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("add")]
-        public IActionResult AddMessage(MessageModel message)
+        public IActionResult AddMessage(MessageForCreateDto message)
         {
-             _messageService.Add(message, _configuration.GetConnectionString("OpenAIKey"));
+             _messageService.AddAsync(message);
             return Ok();
         }
 

@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "chat",
-        "Type": "Models.ChatsModel.Chat",
+        "Type": "Models.Dto.ChatForCreateDto",
         "IsRequired": true
       }
     ],
@@ -241,7 +241,7 @@
     "Parameters": [
       {
         "Name": "message",
-        "Type": "Models.GPTChatsModel.MessageModel",
+        "Type": "Models.Dto.MessageForCreateDto",
         "IsRequired": true
       }
     ],

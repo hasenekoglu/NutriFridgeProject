@@ -26,7 +26,12 @@ namespace Repositories
             services.AddScoped<IFoodMaterialsService, FoodMaterialService>();
             services.AddScoped<IMaterialsService, MaterialsService>();
             services.AddScoped<IChatService, ChatService>();
-            services.AddScoped<IMessageService, MessageService>();
+            services.AddScoped<IMessageService>(provider =>
+            {
+                var messageRepository = provider.GetRequiredService<IMessageRepository>();
+                var configuration = provider.GetRequiredService<IConfiguration>();
+                return new MessageService(messageRepository, configuration);
+            });
 
             services.AddScoped<IFoodRepository, FoodRepository>();
             services.AddScoped<IFoodMaterialRepository, FoodMaterialRepository>();

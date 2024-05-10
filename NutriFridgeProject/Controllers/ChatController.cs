@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models.ChatsModel;
+using Models.Dto;
 using Repositories.Services.Abstract;
 
 namespace WebApi.Controllers
@@ -35,7 +36,7 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("add")]
-        public IActionResult AddChat(Chat chat)
+        public IActionResult AddChat(ChatForCreateDto chat)
         {
             _chatService.Add(chat);
             return Ok();

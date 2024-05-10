@@ -1,48 +1,37 @@
-
-using OpenAI.Extensions;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Repositories;
 
+var builder = WebApplication.CreateBuilder(args);
 
+// Add services to the container.
 
-namespace NutriFridgeProject
+builder.Services.AddControllers();
+builder.Services.AddCors(options =>
 {
-    public class Program 
-    {
-        public static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args);
+    options.AddPolicy("AllowOrigin",
+        builder => builder.AllowAnyOrigin());
+});
+builder.Services.AddRepositories(builder.Configuration);
+builder.Services.AddHttpContextAccessor();
 
-            // Add services to the container.
-           builder.Services.AddRepositories(builder.Configuration);
-           builder.Services.AddOpenAIService();
-          
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-
-
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
-           // builder.Services.AddRepositoryServices(builder.Configuration);
-            var app = builder.Build();
-
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
-
-            app.UseHttpsRedirection();
-
-            app.UseAuthorization();
+var configuration = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    .Build();
 
 
-            app.MapControllers();
+var app = builder.Build();
 
-            app.Run();
-        }
+app.UseSwagger();
+app.UseSwaggerUI();
+app.UseDeveloperExceptionPage();
+app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
-       
-    }
-}
+app.MapControllers();
+
+app.Run();

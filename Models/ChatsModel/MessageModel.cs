@@ -20,7 +20,21 @@ namespace Models.GPTChatsModel
         public virtual Chat Chat { get; set; }
 
         // public int UserId { get; set; }
-        // public virtual user
+        public virtual User User { get; set; }
+
+        public MessageModel()
+        {
+            
+        }
+
+        public MessageModel(int id, int userId, int chatId, string userInput, string responseId)
+        {
+            Id = id;
+            UserId = userId;
+            ChatId = chatId;
+            UserInput = userInput;
+            ResponseId = responseId;
+        }
     }
 
     

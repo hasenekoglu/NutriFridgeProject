@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Models.ChatsModel;
+using Models.Dto;
 using OpenAI.Interfaces;
 using OpenAI.Managers;
 using OpenAI.ObjectModels.RequestModels;
@@ -35,9 +36,10 @@ namespace Repositories.Services.Concreate
             return _chatRepository.GetChatById(chatId);
         }
 
-        public void Add(Chat chat)
+        public void Add(ChatForCreateDto chat)
         {
-            _chatRepository.AddChat(chat);
+            var chatToCreate = new Chat(chat.Id, chat.Title, chat.Description, chat.UserId);
+            _chatRepository.AddChat(chatToCreate);
         }
 
         public void Update(Chat chat)

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Models.ChatsModel;
+using Models.Dto;
 
 namespace Repositories.Services.Abstract
 {
@@ -12,7 +13,7 @@ namespace Repositories.Services.Abstract
     {
         IList<Chat> GetAll();
         Chat GetById(int chatId);
-        void Add(Chat chat);
+        void Add(ChatForCreateDto chat);
         void Update(Chat chat);
         void Delete(int chatId);
     }
