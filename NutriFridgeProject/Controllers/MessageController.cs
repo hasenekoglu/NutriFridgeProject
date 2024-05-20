@@ -65,9 +65,6 @@ namespace WebApi.Controllers
             _messageService.Delete(messageId);
             return Ok(messageId); 
         }
-
-
-
     }
 }
 

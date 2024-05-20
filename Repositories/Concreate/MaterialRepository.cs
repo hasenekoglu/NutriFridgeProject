@@ -20,7 +20,7 @@ namespace Repositories.Concreate
         }
 
 
-        public IEnumerable<Material> GetMaterials()
+        public IList<Material> GetMaterials()
         {
            
             return _context.Set<Material>().ToList();

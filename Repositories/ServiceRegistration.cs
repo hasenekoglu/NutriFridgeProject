@@ -30,7 +30,9 @@ namespace Repositories
             {
                 var messageRepository = provider.GetRequiredService<IMessageRepository>();
                 var configuration = provider.GetRequiredService<IConfiguration>();
-                return new MessageService(messageRepository, configuration);
+                var materialService = provider.GetRequiredService<IMaterialsService>();
+                var chatService = provider.GetRequiredService<IChatService>();
+                return new MessageService(messageRepository, configuration,materialService,chatService);
             });
 
             services.AddScoped<IFoodRepository, FoodRepository>();

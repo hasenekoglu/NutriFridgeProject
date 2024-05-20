@@ -9,7 +9,7 @@ namespace Repositories.Abstract
 {
     public interface IMaterialRepository
     {
-        IEnumerable<Material> GetMaterials();
+        IList<Material> GetMaterials();
         public Material GetMaterialById(int id);
         public void AddMaterial(Material material);
         public void UpdateMaterial(Material material);

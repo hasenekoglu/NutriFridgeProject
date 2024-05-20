@@ -13,7 +13,7 @@ namespace Repositories.Services.Abstract
     {
         IList<MessageModel> GetAll();
         MessageModel GetById(int messageId);
-        Task AddAsync(MessageForCreateDto messageModel);
+        void AddAsync(MessageForCreateDto messageModel);
         void Update(MessageModel messageModel);
         void Delete(int messageId);
 

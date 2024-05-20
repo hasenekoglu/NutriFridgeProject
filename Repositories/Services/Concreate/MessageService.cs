@@ -5,6 +5,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using Models;
 using Models.Dto;
 using Models.GPTChatsModel;
 using Newtonsoft.Json;
@@ -20,11 +21,14 @@ namespace Repositories.Services.Concreate
         protected readonly IMessageRepository _messageRepository;
         protected readonly IConfiguration _configuration;
         protected readonly IChatService _chatService;
+        protected readonly IMaterialsService _materialsService;
 
-        public MessageService(IMessageRepository messageRepository, IConfiguration configuration)
+        public MessageService(IMessageRepository messageRepository, IConfiguration configuration,IMaterialsService materialsService,IChatService chatService)
         {
             _messageRepository = messageRepository;
             _configuration = configuration;
+            _materialsService = materialsService;
+            _chatService = chatService;
         }
 
         public IList<MessageModel> GetAll()
@@ -37,18 +41,29 @@ namespace Repositories.Services.Concreate
             return _messageRepository.GetMessageById(messageId);
         }
 
-        public async Task AddAsync(MessageForCreateDto message)
-        {   var oldMessages = _messageRepository.GetAllMessagesByChatId(message.ChatId);
+        public void AddAsync(MessageForCreateDto message)
+        {
+            
+          //  var materials = _materialsService.GetMaterialById(material);
+            var materialsDatabase =  _materialsService.GetAllMaterials();
+            var oldMessages = _messageRepository.GetAllMessagesByChatId(message.ChatId);
             //promp eklencek
-            //string prompt = message.UserInput != "string" ? message.UserInput :
-            //    $"Act as a chatbot. You are a chatbot designed to help humans in emergency. Current emergency reported is {"postDetails.Title"}." +
-            //    $"Note that user's height is {""}, gender is {"postDetails.Gender"}, blood type is {"postDetails.BloodType"}. " +
-            //    $"User is allergic to {"""postDetails.Allergies"""}, and has {"postDetails.Diseases"} and is {"postDetails.Age"} years old." +
-            //    " Suggest possible actions. Start first message with \"Hi, I'm ResQ Helpbot!\". " +
-            //    " And keep your messages short and accurate as user is probably in a dangerous condition and in a hurry.";
-            string prompt = message.UserInput;
+            string prompt = message.UserInput != "string"
+                ? message.UserInput
+                : $"Sen yemek tarifleri öneren bir botsun. Kullanıcının belirttiği malzemelerden yemek tarifi önerisi yapacaksın." +
+                  $"Kullanıcının malzemeleri şu veritabanından gelecek: {materialsDatabase}. " +
+                  $"Kullanıcılar sana hangi yemekleri yapabileceklerini soracaklar ve sen de onların malzemeleriyle yemek önerisinde bulunacaksın." +
+                  $"Önerdiğin yemeklerin besin değerlerini de belirtmen gerekli." +
+                  $"İşte kullanıcının malzemeleri: {materialsDatabase}.";
+
+            //$"Act as a chatbot. You are a chatbot designed to help humans in emergency. Current emergency reported is {"postDetails.Title"}." +
+            //$"Note that user's height is {""}, gender is {"postDetails.Gender"}, blood type is {"postDetails.BloodType"}. " +
+            //$"User is allergic to {"""postDetails.Allergies"""}, and has {"postDetails.Diseases"} and is {"postDetails.Age"} years old." +
+            //" Suggest possible actions. Start first message with \"Hi, I'm ResQ Helpbot!\". " +
+            //" And keep your messages short and accurate as user is probably in a dangerous condition and in a hurry.";
+            //string prompt = message.UserInput;
             var model = "gpt-3.5-turbo";
-            var maxTokens = 200;
+            var maxTokens = 500;
             var messages = new List<object>();
             messages.Add(new
             {
@@ -123,5 +138,6 @@ namespace Repositories.Services.Concreate
         {
             _messageRepository.DeleteMessage(messageId);
         }
+
     }
 }

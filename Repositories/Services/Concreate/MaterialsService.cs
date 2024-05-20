@@ -14,7 +14,7 @@ namespace Repositories.Services.Concreate
             _materialRepository = materialRepository;
         }
 
-        public IEnumerable<Material> GetAllMaterials()
+        public IList<Material> GetAllMaterials()
         {
             return _materialRepository.GetMaterials();
         }
