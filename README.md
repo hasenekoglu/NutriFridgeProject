@@ -54,7 +54,7 @@ To run the application locally:
 1. Ensure you have the necessary API key from OpenAI. If you don't have an API key yet, you can register for one at the OpenAI website.
 
 2. Configure the API key in the appsettings.json file located in the WebApi project directory:
-```javascript
+```csharp
 {
    "ConnectionStrings": {
     "OpenAIKey": ""
